@@ -10156,7 +10156,7 @@ header.masthead {
   background-size: cover;
 }
 header.masthead .vertical-center {
-  background: rgba(39,62,84,0.82);
+  background: rgba(57, 67, 77, 0.74);
   min-height: 75%;
   min-height: 75vh;
   display: flex;
@@ -10271,7 +10271,7 @@ header.masthead .masthead-heading {
   top: 1.5rem;
   right: 1.5rem;
   width: 3rem;
-  height: 3rem;
+  height: 3rem !important;
   cursor: pointer;
   background-color: transparent;
 }
@@ -10361,6 +10361,7 @@ header.masthead .masthead-heading {
   border-left-width: 0;
 }
 .timeline > li:last-child {
+  top: auto;
   margin-bottom: 0;
 }
 .timeline .timeline-heading h4 {
@@ -10523,3 +10524,44 @@ section#contact form#contactForm :-ms-input-placeholder {
   font-size: 0.9rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
+
+.parallax1{
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: 25vh;
+  background-image: url(../assets/img/traffic1.jpeg);
+  background-attachment: fixed;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  }
+
+  .parallax1 .parallax-bg{
+    width: 100%;
+    height: 100%;
+    background: rgba(57, 67, 78, 0.644);
+  }
+
+
+  .parallax2{
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 30vh;
+    background-image: url(../assets/img/traffic2.jpg);
+    background-attachment: fixed;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    }
+
+    .parallax2 .parallax-bg{
+      width: 100%;
+      height: 100%;
+      background: rgba(57, 67, 77, 0.74);
+    }

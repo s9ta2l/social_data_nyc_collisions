@@ -4,10 +4,10 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta name="description" content="" />
-    <meta name="author" content="" />
-    <title>Agency - Start Bootstrap Theme</title>
-    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <meta name="description" content="Final project for the Social Data Analysis And Visualization at DTU, Copenhagen, Denmark, May 2021." />
+    <meta name="author" content="The Weird Names Group" />
+    <title>NYC Car Collision Prediction</title>
+    <link rel="icon" type="image/x-icon" href="assets/car-favicon.ico" />
     <!-- Font Awesome icons (free version)-->
     <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
     <!-- Google fonts-->
@@ -35,7 +35,7 @@
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#dataset">Dataset</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#machine-learning">Machine
                             Learning</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#team">Team</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
                 </ul>
             </div>
         </div>
@@ -46,8 +46,8 @@
             <div class="container">
                 <div class="masthead-subheading">Hello from the Weird Names Group</div>
                 <div class="masthead-heading text-uppercase">NYC Car Collisions</div>
-                <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#dataset">Begin Exploration</a>
-                <a class="link-primary js-scroll-trigger" href="#dataset">Begin with the datasets</a>
+                <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#dataset">Begin Exploration <i
+                        class="fas fa-car-side"></i></a>
             </div>
         </div>
     </header>
@@ -97,6 +97,10 @@
             </div>
         </div>
     </section>
+    <!-- Paralax 1-->
+    <div class="parallax1">
+        <div class="parallax-bg"></div>
+    </div>
     <!-- Dataset Exploration -->
     <section class="page-section" id="dataset-exploration">
         <div class="container">
@@ -107,8 +111,8 @@
             <ul class="timeline">
                 <!-- Basic Statistics -->
                 <li>
-                    <div class="timeline-image"><img class="rounded-circle img-fluid"
-                            src="assets/img/data-exploration/Box_plot_MVC_Data.jpg" alt="..." /></div>
+                    <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/statistics.jpg"
+                            alt="..." /></div>
                     <div class="timeline-panel">
                         <div class="timeline-heading">
                             <h4>Basic Statistics</h4>
@@ -123,7 +127,7 @@
                 <!-- Feature Investigation -->
                 <li class="timeline-inverted">
                     <div class="timeline-image"><img class="rounded-circle img-fluid"
-                            src="assets/img/data-exploration/Box_plot_SP_W_Data.jpg" alt="..." /></div>
+                            src="assets/img/feature-investigation.jpg" alt="..." /></div>
                     <div class="timeline-panel">
                         <div class="timeline-heading">
                             <h4>Feature Investigation</h4>
@@ -139,8 +143,8 @@
                 </li>
                 <!-- Response Investigation -->
                 <li>
-                    <div class="timeline-image"><img class="rounded-circle img-fluid"
-                            src="assets/img/data-exploration/3.jpg" alt="..." /></div>
+                    <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/response.jpg"
+                            alt="..." /></div>
                     <div class="timeline-panel">
                         <div class="timeline-heading">
                             <h4>Response Investigation</h4>
@@ -157,7 +161,7 @@
                 <!-- Frequency: Vehicle Type / Contrib Factor -->
                 <li class="timeline-inverted">
                     <div class="timeline-image"><img class="rounded-circle img-fluid"
-                            src="assets/img/data-exploration/4.jpg" alt="..." /></div>
+                            src="assets/img/vehicle-contrib-factor.jpg" alt="..." /></div>
                     <div class="timeline-panel">
                         <div class="timeline-heading">
                             <h4>Vehicle Types & Contributing Factors</h4>
@@ -186,73 +190,83 @@
         </div>
     </section>
     <!-- Machine Learning-->
-    <section class="page-section bg-light portfolio" id="machine-learning">
+    <section class="page-section bg-light" id="machine-learning">
         <div class="container">
             <div class="text-center">
                 <h2 class="section-heading text-uppercase">Machine Learning</h2>
-                <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                <h3 class="section-subheading text-muted">Some introductory text for the Dataset Exploration part.</h3>
             </div>
-            <div class="row text-center">
-                <div class="col-6">
-                    <span class="fa-stack fa-4x">
-                        <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="my-3">Result 1</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam
-                        architecto quo inventore harum ex magni, dicta impedit.</p>
-                </div>
-                <div class="col-6">
-                    <span class="fa-stack fa-4x">
-                        <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="my-3">Result 2</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam
-                        architecto quo inventore harum ex magni, dicta impedit.</p>
-                </div>
-                <div class="col-12">
-                    <span class="fa-stack fa-4x">
-                        <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fas fa-lock fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="my-3">Result 3</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam
-                        architecto quo inventore harum ex magni, dicta impedit.</p>
-                </div>
-                <div class="col-lg-6 col-sm-12 mb-4">
-                    <div class="portfolio-item">
-                        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/01-thumbnail.jpg" alt="..." />
-                        </a>
-                        <div class="portfolio-caption">
-                            <div class="portfolio-caption-heading">Threads</div>
-                            <div class="portfolio-caption-subheading text-muted">Illustration</div>
+            <ul class="timeline">
+                <!-- Data Preparation -->
+                <li>
+                    <div class="timeline-image"><img class="rounded-circle img-fluid"
+                            src="assets/img/data-preparation.jpg" alt="..." /></div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <h4>Data Preparation</h4>
+                            <h6 class="subheading">Spatio-temporal Distribution & Slicing/Class Balancing</h5>
+                        </div>
+                        <div class="timeline-body">
+                            <p class="text-muted">Here goes the text giving an introduction to the basic statistics.</p>
+                            <a class="link-primary" data-toggle="modal" href="#ml-data-preparation">View More</a>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-6 col-sm-12 mb-4">
-                    <div class="portfolio-item">
-                        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/02-thumbnail.jpg" alt="..." />
-                        </a>
-                        <div class="portfolio-caption">
-                            <div class="portfolio-caption-heading">Explore</div>
-                            <div class="portfolio-caption-subheading text-muted">Graphic Design</div>
+                </li>
+                <!-- Algorithm Comparison  -->
+                <li class="timeline-inverted">
+                    <div class="timeline-image"><img class="rounded-circle img-fluid"
+                            src="assets/img/model-comparison.jpg" alt="..." /></div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <h4>Algorithm Comparison</h4>
+                            <h6 class="subheading">Compare & Tune Models</h6>
+                        </div>
+                        <div class="timeline-body">
+                            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut
+                                voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero
+                                unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                            <a class="link-primary" data-toggle="modal" href="#ml-algorithm-comparison">View More</a>
                         </div>
                     </div>
-                </div>
-            </div>
+                </li>
+                <!-- Final Model -->
+                <li>
+                    <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/final-model.jpg"
+                            alt="..." /></div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <h4>Final Model Report</h4>
+                            <h6 class="subheading">Final Model Accuracy & Structure Plot/Feature Importance</h6>
+                        </div>
+                        <div class="timeline-body">
+                            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut
+                                voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero
+                                unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                            <a class="link-primary" data-toggle="modal" href="#ml-final-model">View More</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="timeline-inverted">
+                    <a class="btn timeline-image js-scroll-trigger"
+                        href="https://github.com/astenast/social-data-analysis">
+                        <h4>
+                            Check what
+                            <br />
+                            we did in our
+                            <br />
+                            Github repo
+                        </h4>
+                    </a>
+                </li>
+            </ul>
         </div>
     </section>
-    <!-- Team-->
-    <section class="page-section" id="team">
+    <!-- Paralax 2-->
+    <div class="parallax2">
+        <div class="parallax-bg"></div>
+    </div>
+    <!-- About -->
+    <section class="page-section" id="about">
         <div class="container">
             <div class="text-center">
                 <h2 class="section-heading text-uppercase">Our Amazing Team</h2>
@@ -299,10 +313,10 @@
         </div>
     </section>
     <!-- Footer-->
-    <footer class="footer py-4 bg-light">
+    <footer class="footer py-4 bg-dark">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-lg-4 text-lg-left">
+                <div class="col-lg-4 text-lg-left text-light">
                     Copyright &copy; The Weird Names Group
                     <!-- This script automatically adds the current year to your website footer-->
                     <!-- (credit: https://updateyourfooter.com/)-->
@@ -311,12 +325,11 @@
                     </script>
                 </div>
                 <div class="col-lg-4 my-3 my-lg-0">
-                    <a class="btn btn-dark btn-social mx-2" href="https://github.com/s9ta2l/social_data_nyc_collisions"
-                        target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+                    🚗 🚙 🚕 🚓
                 </div>
                 <div class="col-lg-4 text-lg-right">
-                    <a class="mr-3" href="#!">Privacy Policy</a>
-                    <a href="#!">Terms of Use</a>
+                    <a class="btn btn-dark btn-social mx-2" href="https://github.com/s9ta2l/social_data_nyc_collisions"
+                        target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
                 </div>
             </div>
         </div>
@@ -735,12 +748,6 @@
                                         adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos
                                         deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores
                                         repudiandae, nostrum, reiciendis facere nemo!</p>
-
-                                    <ul class="list-inline">
-                                        <li>Date: January 2021</li>
-                                        <li>Client: Threads</li>
-                                        <li>Category: Illustration</li>
-                                    </ul>
                                     <button class="btn btn-primary" data-dismiss="modal" type="button">
                                         <i class="fas fa-times mr-1"></i>
                                         Close Project
@@ -788,13 +795,6 @@
                                     adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt
                                     repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae,
                                     nostrum, reiciendis facere nemo!</p>
-
-
-                                <ul class="list-inline">
-                                    <li>Date: January 2021</li>
-                                    <li>Client: Finish</li>
-                                    <li>Category: Identity</li>
-                                </ul>
                                 <button class="btn btn-primary" data-dismiss="modal" type="button">
                                     <i class="fas fa-times mr-1"></i>
                                     Close Project
@@ -820,6 +820,7 @@
                             <p class="item-intro text-muted">Some small intro here.</p>
                             <div class="d-flex justify-content-center">
                                 <div class="col-lg-8">
+                                    <!-- Response over Years -->
                                     <h3>Response over Years</h3>
                                     <img class="img-fluid d-block mx-auto"
                                         src="assets/img/data-exploration/response_years.jpg" alt="..." />
@@ -829,7 +830,37 @@
                                         repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores
                                         repudiandae,
                                         nostrum, reiciendis facere nemo!</p>
-
+                                    <!-- Response over Boroughs -->
+                                    <h3>Response over Boroughs</h3>
+                                    <img class="img-fluid d-block mx-auto"
+                                        src="assets/img/data-exploration/response_brough.jpg" alt="..." />
+                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
+                                        adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos
+                                        deserunt
+                                        repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores
+                                        repudiandae,
+                                        nostrum, reiciendis facere nemo!</p>
+                                    <!-- Response over 24Hrs -->
+                                    <h3>Response over 24hrs</h3>
+                                    <img class="img-fluid d-block mx-auto"
+                                        src="assets/img/data-exploration/response_24hr.jpg" alt="..." />
+                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
+                                        adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos
+                                        deserunt
+                                        repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores
+                                        repudiandae,
+                                        nostrum, reiciendis facere nemo!</p>
+                                    <!-- Response over Week Days -->
+                                    <h3>Response over Week Days</h3>
+                                    <img class="img-fluid d-block mx-auto"
+                                        src="assets/img/data-exploration/response_weekdays.jpg" alt="..." />
+                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
+                                        adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos
+                                        deserunt
+                                        repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores
+                                        repudiandae,
+                                        nostrum, reiciendis facere nemo!</p>
+                                    <!-- Jitter Plots -->
                                     <h3>Jitter Plots</h3>
                                     <img class="img-fluid d-block mx-auto"
                                         src="assets/img/data-exploration/jitter_no_injury.jpg" alt="..." />
@@ -841,7 +872,7 @@
                                         repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores
                                         repudiandae,
                                         nostrum, reiciendis facere nemo!</p>
-
+                                    <!-- Frequency over Latitude -->
                                     <h3>Frequency over Latitude</h3>
                                     <img class="img-fluid d-block mx-auto"
                                         src="assets/img/data-exploration/hist_latitude_no_injury.jpg" alt="..." />
@@ -858,12 +889,6 @@
                             <div class="col-lg-12">
                                 <embed class="embed-responsive-item w-100 vh-100" type="text/html"
                                     src="interactive-plots/nyc_mvc_folium.html">
-
-                                <ul class="list-inline">
-                                    <li>Date: January 2021</li>
-                                    <li>Client: Finish</li>
-                                    <li>Category: Identity</li>
-                                </ul>
                                 <button class="btn btn-primary" data-dismiss="modal" type="button">
                                     <i class="fas fa-times mr-1"></i>
                                     Close Project
@@ -920,16 +945,89 @@
                                     repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores
                                     repudiandae,
                                     nostrum, reiciendis facere nemo!</p>
+                                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                    <i class="fas fa-times mr-1"></i>
+                                    Close Project
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- MODAL 5: ML - Data Preparation -->
+    <div class="portfolio-modal modal fade" id="ml-data-preparation" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" />
+                </div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="modal-body">
+                            <h2 class="text-uppercase">DATA PREPARATION</h2>
+                            <p class="item-intro text-muted">Some introductory text on summary statistics.</p>
 
-                                <ul class="list-inline">
-                                    <li>Date: January 2021</li>
-                                    <li>Client: Finish</li>
-                                    <li>Category: Identity</li>
-                                </ul>
-                                <button class="btn btn-primary" data-dismiss="modal" type="button">
-                                    <i class="fas fa-times mr-1"></i>
-                                    Close Project
-                                </button>
+                            <div class="d-flex justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Testing different spatio-temporal distributions -->
+                                    <h3>Testing Different Spatio-temporal Distributions</h3>
+                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
+                                        adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos
+                                        deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores
+                                        repudiandae, nostrum, reiciendis facere nemo!</p>
+                                    <img class="img-fluid d-block mx-auto"
+                                        src="assets/img/data-exploration/hist_latitude_no_injury.jpg" alt="..." />
+                                    <img class="img-fluid d-block mx-auto"
+                                        src="assets/img/data-exploration/hist_latitude_injury.jpg" alt="..." />
+                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
+                                        adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos
+                                        deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores
+                                        repudiandae, nostrum, reiciendis facere nemo!</p>
+                                    <!-- Feature Slicing -->
+                                    <h3>Feature Slicing</h3>
+                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
+                                        adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos
+                                        deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores
+                                        repudiandae, nostrum, reiciendis facere nemo!</p>
+                                    <!-- Class Balancing -->
+                                    <h3>Class Balancing</h3>
+                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
+                                        adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos
+                                        deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores
+                                        repudiandae, nostrum, reiciendis facere nemo!</p>
+                                    <table class="table table-striped table-bordered center">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">Response/Count</th>
+                                                <th scope="col">Before Balance</th>
+                                                <th scope="col">After Balance</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <th scope="row">0</th>
+                                                <td>758237</td>
+                                                <td>200134</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">1</th>
+                                                <td>200134</td>
+                                                <td>200134</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <!-- Splitting Data for Learning -->
+                                    <h3>Data Splitting</h3>
+                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
+                                        adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos
+                                        deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores
+                                        repudiandae, nostrum, reiciendis facere nemo!</p>
+                                    <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                        <i class="fas fa-times mr-1"></i>
+                                        Close Project
+                                    </button>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -937,35 +1035,49 @@
             </div>
         </div>
     </div>
-    </div>
-    <!-- Modal 2-->
-    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+    <!-- MODAL 6: ML - Algorithm Comparison -->
+    <div class="portfolio-modal modal fade" id="ml-algorithm-comparison" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" />
                 </div>
                 <div class="container">
                     <div class="row justify-content-center">
-                        <div class="col-lg-8">
-                            <div class="modal-body">
-                                <!-- Project Details Go Here-->
-                                <h2 class="text-uppercase">Project Name</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/02-full.jpg"
-                                    alt="..." />
-                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
-                                    adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt
-                                    repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae,
-                                    nostrum, reiciendis facere nemo!</p>
-                                <ul class="list-inline">
-                                    <li>Date: January 2021</li>
-                                    <li>Client: Explore</li>
-                                    <li>Category: Graphic Design</li>
-                                </ul>
-                                <button class="btn btn-primary" data-dismiss="modal" type="button">
-                                    <i class="fas fa-times mr-1"></i>
-                                    Close Project
-                                </button>
+                        <div class="modal-body">
+                            <!-- Project Details Go Here-->
+                            <h2 class="text-uppercase">ALGORITHM COMPARISON</h2>
+                            <p class="item-intro text-muted">Some small intro here.</p>
+                            <div class="d-flex justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Model Results -->
+                                    <h3>Model Results</h3>
+                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
+                                        adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos
+                                        deserunt
+                                        repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores
+                                        repudiandae,
+                                        nostrum, reiciendis facere nemo!</p>
+                                    <img class="img-fluid d-block mx-auto"
+                                        src="assets/img/machine-learning/algorithm_comparison.jpg" alt="..." />
+                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
+                                        adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos
+                                        deserunt
+                                        repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores
+                                        repudiandae,
+                                        nostrum, reiciendis facere nemo!</p>
+
+                                    <h3>Model Tuning</h3>
+                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
+                                        adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos
+                                        deserunt
+                                        repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores
+                                        repudiandae,
+                                        nostrum, reiciendis facere nemo!</p>
+                                    <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                        <i class="fas fa-times mr-1"></i>
+                                        Close Project
+                                    </button>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -973,139 +1085,174 @@
             </div>
         </div>
     </div>
-    <!-- Modal 3-->
-    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+    <!-- MODAL 7: ML - Final Model -->
+    <div class="portfolio-modal modal fade" id="ml-final-model" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" />
                 </div>
                 <div class="container">
                     <div class="row justify-content-center">
-                        <div class="col-lg-8">
-                            <div class="modal-body">
-                                <!-- Project Details Go Here-->
-                                <h2 class="text-uppercase">Project Name</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/03-full.jpg"
-                                    alt="..." />
-                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
-                                    adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt
-                                    repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae,
-                                    nostrum, reiciendis facere nemo!</p>
-                                <ul class="list-inline">
-                                    <li>Date: January 2021</li>
-                                    <li>Client: Finish</li>
-                                    <li>Category: Identity</li>
-                                </ul>
-                                <button class="btn btn-primary" data-dismiss="modal" type="button">
-                                    <i class="fas fa-times mr-1"></i>
-                                    Close Project
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Modal 4-->
-    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" />
-                </div>
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="col-lg-8">
-                            <div class="modal-body">
-                                <!-- Project Details Go Here-->
-                                <h2 class="text-uppercase">Project Name</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/04-full.jpg"
-                                    alt="..." />
-                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
-                                    adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt
-                                    repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae,
-                                    nostrum, reiciendis facere nemo!</p>
-                                <ul class="list-inline">
-                                    <li>Date: January 2021</li>
-                                    <li>Client: Lines</li>
-                                    <li>Category: Branding</li>
-                                </ul>
-                                <button class="btn btn-primary" data-dismiss="modal" type="button">
-                                    <i class="fas fa-times mr-1"></i>
-                                    Close Project
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Modal 5-->
-    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" />
-                </div>
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="col-lg-8">
-                            <div class="modal-body">
-                                <!-- Project Details Go Here-->
-                                <h2 class="text-uppercase">Project Name</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/05-full.jpg"
-                                    alt="..." />
-                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
-                                    adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt
-                                    repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae,
-                                    nostrum, reiciendis facere nemo!</p>
-                                <ul class="list-inline">
-                                    <li>Date: January 2021</li>
-                                    <li>Client: Southwest</li>
-                                    <li>Category: Website Design</li>
-                                </ul>
-                                <button class="btn btn-primary" data-dismiss="modal" type="button">
-                                    <i class="fas fa-times mr-1"></i>
-                                    Close Project
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Modal 6-->
-    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" />
-                </div>
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="col-lg-8">
-                            <div class="modal-body">
-                                <!-- Project Details Go Here-->
-                                <h2 class="text-uppercase">Project Name</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/06-full.jpg"
-                                    alt="..." />
-                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
-                                    adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt
-                                    repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae,
-                                    nostrum, reiciendis facere nemo!</p>
-                                <ul class="list-inline">
-                                    <li>Date: January 2021</li>
-                                    <li>Client: Window</li>
-                                    <li>Category: Photography</li>
-                                </ul>
-                                <button class="btn btn-primary" data-dismiss="modal" type="button">
-                                    <i class="fas fa-times mr-1"></i>
-                                    Close Project
-                                </button>
+                        <div class="modal-body">
+                            <!-- Project Details Go Here-->
+                            <h2 class="text-uppercase">FINAL MODEL</h2>
+                            <p class="item-intro text-muted">Results for the Tuned Decision Tree Model.</p>
+                            <div class="d-flex justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Classification Report -->
+                                    <h3>Classification Report</h3>
+                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
+                                        adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos
+                                        deserunt
+                                        repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores
+                                        repudiandae,
+                                        nostrum, reiciendis facere nemo!</p>
+
+                                    <img class="img-fluid d-block mx-auto"
+                                        src="assets/img/machine-learning/conf_matrix.jpg" alt="..." />
+
+                                    <table class="table table-striped table-bordered center">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col"></th>
+                                                <th scope="col">precision</th>
+                                                <th scope="col">recall</th>
+                                                <th scope="col">f1-score</th>
+                                                <th scope="col">support</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <th scope="row">0</th>
+                                                <td>0.65</td>
+                                                <td>0.71</td>
+                                                <td>0.68</td>
+                                                <td>190128</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">1</th>
+                                                <td>0.68</td>
+                                                <td>0.62</td>
+                                                <td>0.65</td>
+                                                <td>190127</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">accuracy</th>
+                                                <td></td>
+                                                <td></td>
+                                                <td>0.66</td>
+                                                <td>380255</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">macro avg</th>
+                                                <td>0.66</td>
+                                                <td>0.66</td>
+                                                <td>0.66</td>
+                                                <td>380255</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">weighted avg</th>
+                                                <td>0.66</td>
+                                                <td>0.66</td>
+                                                <td>0.66</td>
+                                                <td>380255</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+
+                                    <h3>Feature Importance</h3>
+                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
+                                        adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos
+                                        deserunt
+                                        repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores
+                                        repudiandae,
+                                        nostrum, reiciendis facere nemo!</p>
+                                    <table class="table table-striped table-bordered center">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">Feature</th>
+                                                <th scope="col">Contribution</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <th scope="row">VEHICLE TYPE CODE 2</th>
+                                                <td>0.329 +/- 0.004</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">CONTRIBUTING FACTOR VEHICLE 2</th>
+                                                <td>0.267 +/- 0.005</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">ON STREET NAME</th>
+                                                <td>0.060 +/- 0.003</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">CONTRIBUTING FACTOR VEHICLE 1</th>
+                                                <td>0.052 +/- 0.002/td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">VEHICLE TYPE CODE 1</th>
+                                                <td>0.038 +/- 0.001</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">Hour</th>
+                                                <td>0.027 +/- 0.002</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">SPEED LIMIT MODE</th>
+                                                <td>0.020 +/- 0.001</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">MINIMUM TEMPERATURE</th>
+                                                <td>0.016 +/- 0.002</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">PRECIPITATION</th>
+                                                <td>0.012 +/- 0.002</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">AVERAGE WIND SPEED</th>
+                                                <td>0.010 +/- 0.001</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">Month</th>
+                                                <td>0.008 +/- 0.000</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">MAXIMUM TEMPERATURE</th>
+                                                <td>0.008 +/- 0.001</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">FOG, SMOKE OR HAZE</th>
+                                                <td>0.005 +/- 0.001</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">Day of week</th>
+                                                <td>0.004 +/- 0.001</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">SNOW DEPTH</th>
+                                                <td>0.003 +/- 0.001</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+
+                                    <h3>Decision Tree Plot</h3>
+                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
+                                        adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos
+                                        deserunt
+                                        repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores
+                                        repudiandae,
+                                        nostrum, reiciendis facere nemo!</p>
+                                    <img class="img-fluid d-block mx-auto"
+                                        src="assets/img/machine-learning/decision_tree.jpg" alt="..." />
+                                    <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                        <i class="fas fa-times mr-1"></i>
+                                        Close Project
+                                    </button>
+
+                                </div>
                             </div>
                         </div>
                     </div>
