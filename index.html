@@ -35,9 +35,11 @@
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#page-top">Intro</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#motivation">Motivation</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#data-analysis">Analysis</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#machine-learning">Machine
-                            Learning</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#machine-learning">ML</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+                    <li class="btn-primary"><a class="nav-link text-light js-scroll-trigger"
+                            href="https://drive.google.com/file/d/1CavG9yruhAwuRvrGwW08nW7Us2lhyG_u/view?usp=sharing">Notebook
+                            <i class="fas fa-book"></i></a></li>
                 </ul>
             </div>
         </div>
@@ -54,25 +56,39 @@
         </div>
     </header>
     <!-- Motivation -->
-    <section class="page-section" id="motivation">
+    <section class="page-section bg-light" id="motivation">
         <div class="container">
             <div class="text-center">
-                <h2 class="section-heading">What this project is all about?</h2>
-                <p>Vehicle crashes happen daily around the globe.
-                    They, for example, cost the New York City economy an enormous amount of $4 billion per year link.
-                    Thus, it's might be beneficial to invistigate the chossen data to learn more about this phenomena
-                    and
-                    analyse the core reasons and contributing factors behind those accidents.
-                    Our goal through this project is to give the end user the ability to do interactive investigation,
-                    learn and build their own assumptions about this phenomena based on our extensive statistical
-                    analysis and visulizations.</p>
-                <div class="py-5">
-                    <h3>Important Terminology:</h3>
-                    <p>The project is focused on the Response variable that indicates whether there is a injury/kill or not,
-                        simply put whether there was a serious accident or not. Response=1 means we have a serious accident
-                        (involving an injury or kill) and Response=0 means the accident wasn't so serious.</p>
+                <div class="d-flex justify-content-center">
+                    <div class="col-6">
+                        <div class="mt-4 mb-3" style="width:100%">
+                            <h2 class="section-heading">What this project is all about?</h2>
+                        </div>
+                        <p>Vehicle crashes happen daily around the globe.
+                            They, for example, cost the New York City economy an enormous amount of $4 billion per year
+                            link.
+                            Thus, it's might be beneficial to invistigate the chossen data to learn more about this
+                            phenomena
+                            and
+                            analyse the core reasons and contributing factors behind those accidents.
+                            Our goal through this project is to give the end user the ability to do interactive
+                            investigation,
+                            learn and build their own assumptions about this phenomena based on our extensive
+                            statistical
+                            analysis and visulizations.</p>
+
+                        <div class="mt-5 mb-3" style="width:100%">
+                            <h3>Important Terminology:</h3>
+                        </div>
+                        <p>The project is focused on the Response variable that indicates whether there is a injury/kill
+                            or
+                            not,
+                            simply put whether there was a serious accident or not. Response=1 means we have a serious
+                            accident
+                            (involving an injury or kill) and Response=0 means the accident wasn't so serious.</p>
+                    </div>
                 </div>
-                <div class="py-5">
+                <div class="mt-5 mb-4" style="width:100%; padding-top:3vh; padding-bottom:1vh;">
                     <h2 class="section-heading">Combined Datasets</h2>
                 </div>
             </div>
@@ -131,7 +147,8 @@
         <div class="container">
             <div class="text-center">
                 <h2 class="section-heading text-uppercase">Data Analysis</h2>
-                <h3 class="section-subheading text-muted">This is where no part of the data is left unseen or poked.</h3>
+                <h3 class="section-subheading text-muted">This is where no part of the data is left unseen or poked.
+                </h3>
             </div>
             <ul class="timeline">
                 <!-- Basic Statistics -->
@@ -159,7 +176,8 @@
                             <h6 class="subheading">Box Plots/Correlation Matrix</h6>
                         </div>
                         <div class="timeline-body">
-                            <p class="text-muted">A multi-feature analysis is performed and the cross-correlation matrix is extracted.</p>
+                            <p class="text-muted">A multi-feature analysis is performed and the cross-correlation matrix
+                                is extracted.</p>
                             <a class="link-primary" data-toggle="modal" href="#feature-investigation">View More</a>
                         </div>
                     </div>
@@ -174,8 +192,10 @@
                             <h6 class="subheading">Frequency & Occurrence Plots/Histogram/Map</h6>
                         </div>
                         <div class="timeline-body">
-                            <p class="text-muted">In this section the focus is the Response variable, which is analyzed and visualized
-                                based on the rest of the features. A spatio-temporal visualization with the use of a map is also shown.<span></span></p>
+                            <p class="text-muted">In this section the focus is the Response variable, which is analyzed
+                                and visualized
+                                based on the rest of the features. A spatio-temporal visualization with the use of a map
+                                is also shown.<span></span></p>
                             <a class="link-primary" data-toggle="modal" href="#response-investigation">View More</a>
                         </div>
                     </div>
@@ -190,7 +210,8 @@
                             <h6 class="subheading">Interactive Histograms</h6>
                         </div>
                         <div class="timeline-body">
-                            <p class="text-muted">In this section the user can interactively investigate the different vehicle types and contributing factors distribution patterns across 24hrs.</p>
+                            <p class="text-muted">In this section the user can interactively investigate the different
+                                vehicle types and contributing factors distribution patterns across 24hrs.</p>
                             <a class="link-primary" data-toggle="modal" href="#freq-vehitype-contfact">View More</a>
                         </div>
                     </div>
@@ -214,7 +235,8 @@
         <div class="container">
             <div class="text-center">
                 <h2 class="section-heading text-uppercase">Machine Learning</h2>
-                <h3 class="section-subheading text-muted">Our main task here is to predict the severity of a future accident.</h3>
+                <h3 class="section-subheading text-muted">Predict dangerous Motor Vehicle Collisions (Response = 1) by
+                    the means of Machine Learning.</h3>
             </div>
             <ul class="timeline">
                 <!-- Data Preparation for ML -->
@@ -227,7 +249,8 @@
                             <h6 class="subheading">Spatio-temporal Distribution & Slicing/Class Balancing</h5>
                         </div>
                         <div class="timeline-body">
-                            <p class="text-muted">This is where the data is prepared to be dropped in machine learning models.</p>
+                            <p class="text-muted">Take a tour on how we prepare the data for our Machine learning task.
+                            </p>
                             <a class="link-primary" data-toggle="modal" href="#ml-data-preparation">View More</a>
                         </div>
                     </div>
@@ -242,7 +265,9 @@
                             <h6 class="subheading">Compare & Tune Models</h6>
                         </div>
                         <div class="timeline-body">
-                            <p class="text-muted">Three different models are compared, namely: Decision Tree, Random Forest and Logistic Regression. Hyperparameter tuning is also performed to the Decision Tree which has the best accuracy.</p>
+                            <p class="text-muted">Three different models are compared, namely: Decision Tree, Random
+                                Forest and Logistic Regression. Hyperparameter tuning is also performed to the Decision
+                                Tree which has the best accuracy.</p>
                             <a class="link-primary" data-toggle="modal" href="#ml-algorithm-comparison">View More</a>
                         </div>
                     </div>
@@ -257,7 +282,8 @@
                             <h6 class="subheading">Final Model Accuracy & Structure Plot/Feature Importance</h6>
                         </div>
                         <div class="timeline-body">
-                            <p class="text-muted">In this section we present the final tuned model (Decision Tree) and present the feature contribution on the Response variable.</p>
+                            <p class="text-muted">In this section we present the final tuned model (Decision Tree) and
+                                present the feature contribution on the Response variable.</p>
                             <a class="link-primary" data-toggle="modal" href="#ml-final-model">View More</a>
                         </div>
                     </div>
@@ -286,7 +312,8 @@
         <div class="container">
             <div class="text-center">
                 <h2 class="section-heading text-uppercase">Our Amazing Team</h2>
-                <h3 class="section-subheading text-muted">We are all master students from DTU - always with the weirdest names possible...</h3>
+                <h3 class="section-subheading text-muted">We are all master students from DTU - always with the weirdest
+                    names possible...</h3>
             </div>
             <div class="row">
                 <div class="col-lg-4">
@@ -360,8 +387,19 @@
                     <div class="row justify-content-center">
                         <div class="modal-body">
                             <h2 class="text-uppercase">BASIC STATISTICS</h2>
-                            <p class="item-intro text-muted">Some introductory text on summary statistics.</p>
-                            <h3>Summary Statistics</h3>
+                            <p class="item-intro text-muted">A summary of the categorical features of the investigated
+                                data.</p>
+                            <div class="mt-5 mb-3" style="width:100%">
+                                <h3>Summary Statistics</h3>
+                            </div>
+                            <p>In this project we study the 5 boroughs of the New York City: Bronx, Brooklyn, Manhattan,
+                                Queens
+                                and Staten
+                                Island. BROOKLYN is the borough with the most collisions. Most crashes happened in 21st
+                                Jan 2014 when NYC was hit by an East Coast Storm with extensive
+                                Snow and Disruptions presen in the region. Because a video is more than 1000 words you
+                                can see this <a class="link-primary" data-toggle="modal"
+                                    href="https://www.youtube.com/watch?v=8B2o82V68dw">video</a>.</p>
                             <div class="d-flex justify-content-center">
                                 <div class="col-lg-8">
                                     <table class="table table-striped table-bordered center">
@@ -440,10 +478,10 @@
                                             </tr>
                                         </tbody>
                                     </table>
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
-                                        adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos
-                                        deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores
-                                        repudiandae, nostrum, reiciendis facere nemo!</p>
+                                    <p>Below are the numerical features investigated (with some extra statistics).
+                                        Judging from the mode, most collisions happen in September month, at 4PM on the
+                                        13th
+                                        day of the month.</p>
                                 </div>
                             </div>
                             <div class="col-lg-12">
@@ -714,16 +752,9 @@
                                     </tbody>
                                 </table>
                             </div>
-                            <div class="d-flex justify-content-center">
-                                <div class="col-lg-8">
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
-                                        adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos
-                                        deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores
-                                        repudiandae, nostrum, reiciendis facere nemo!</p>
-                                </div>
+                            <div class="mt-5 mb-3" style="width:100%">
+                                <h3>Interesting Counts</h3>
                             </div>
-
-                            <h3 class="text-uppercase">INTERESTING COUNTS</h3>
                             <div class="d-flex justify-content-center">
                                 <div class="col-lg-3">
                                     <table class="table table-striped table-bordered center">
@@ -755,11 +786,12 @@
                                             </tr>
                                         </tbody>
                                     </table>
+                                    <p>Self-explanatory interested counts. The number of non-serious crashes is 3.8
+                                        times larger than the severe/serious ones.</p>
                                 </div>
                             </div>
                             <div class="d-flex justify-content-center">
                                 <div class="col-lg-8">
-                                    <p>Between years 2013-2020</p>
                                     <button class="btn btn-primary" data-dismiss="modal" type="button">
                                         <i class="fas fa-times mr-1"></i>
                                         Close Project
@@ -784,29 +816,36 @@
                             <div class="modal-body">
                                 <!-- Project Details Go Here-->
                                 <h2 class="text-uppercase">FEATURE INVESTIGATION</h2>
-                                <p class="item-intro text-muted">Some small intro here.</p>
-                                <h3>Box Plots</h3>
+                                <p class="item-intro text-muted">Some statistical plots to show the quality of the data
+                                    in visual form.</p>
+                                <div class="mt-5 mb-3" style="width:100%">
+                                    <h3>Box Plots</h3>
+                                </div>
+                                <p>Below is the set of Blox-plots from the features of the Motor Vehicle Collisions
+                                    (MVC) data. </p>
                                 <img class="img-fluid d-block mx-auto"
                                     src="assets/img/data-exploration/Box_plot_MVC_Data.jpg" alt="..." />
-                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
-                                    adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt
-                                    repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae,
-                                    nostrum, reiciendis facere nemo!</p>
-
+                                <p>Below are the Box-plots from the Speed Limit and Weather datasets. We can see how the
+                                    outliers especial depict the extreme weather conditions!</p>
                                 <img class="img-fluid d-block mx-auto"
                                     src="assets/img/data-exploration/Box_plot_SP_W_Data.jpg" alt="..." />
-                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
-                                    adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt
-                                    repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae,
-                                    nostrum, reiciendis facere nemo!</p>
-
-                                <h3>Correlation Matrix</h3>
+                                <div class="mt-5 mb-3" style="width:100%">
+                                    <h3>Correlation Matrix</h3>
+                                </div>
                                 <img class="img-fluid d-block mx-auto"
                                     src="assets/img/data-exploration/corrmat_all_features.jpg" alt="..." />
-                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
-                                    adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt
-                                    repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae,
-                                    nostrum, reiciendis facere nemo!</p>
+                                <p>Above we see how correlated the data is giving a hint on the quality of our machine
+                                    learning modeling. We see many non-correlated features, a good indication
+                                    for a nice performing model.
+                                    Speed Limit Mode is kind of related to Year. This is validated because
+                                    "<a class="link-primary" data-toggle="modal"
+                                        href="https://data.cityofnewyork.us/Transportation/VZV_Speed-Limits/7n5j-865y">On
+                                        November
+                                        7, 2014, New York City’s default speed limit was changed from 30 mph to 25
+                                        mph</a>".
+                                    Fog, Snow and Haze is related to Rainfall and Years. This seems logical as some
+                                    years might have rougher winters.
+                                    Wind Speed is related with Snow Fall and Rain Fall.</p>
                                 <button class="btn btn-primary" data-dismiss="modal" type="button">
                                     <i class="fas fa-times mr-1"></i>
                                     Close Project
@@ -828,77 +867,95 @@
                     <div class="row justify-content-center">
                         <div class="modal-body">
                             <!-- Project Details Go Here-->
-                            <h2 class="text-uppercase">FEATURE INVESTIGATION</h2>
-                            <p class="item-intro text-muted">Some small intro here.</p>
+                            <h2 class="text-uppercase">RESPONSE INVESTIGATION</h2>
+                            <p class="item-intro text-muted">This part investigates the binary feature of Response.
+                                (serious=1 and non-serious=0)</p>
                             <div class="d-flex justify-content-center">
                                 <div class="col-lg-8">
                                     <!-- Response over Years -->
-                                    <h3>Response over Years</h3>
+                                    <div class="mt-5 mb-3" style="width:100%">
+                                        <h3>Response over Years</h3>
+                                    </div>
                                     <img class="img-fluid d-block mx-auto"
                                         src="assets/img/data-exploration/response_years.jpg" alt="..." />
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
-                                        adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos
-                                        deserunt
-                                        repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores
-                                        repudiandae,
-                                        nostrum, reiciendis facere nemo!</p>
+                                    <p>Above we see the Responses (Non-Serious vs Serious accidents) thoughout the years
+                                        2013 to 2020.
+                                        We realise the dramatic decrease of the accidents in total in 2020 due to the
+                                        Covid-19 global pandemic. One positive that came out of this pandemic!
+                                        Apart from 2020 (due to the global pandemic that is a special situation) 2016 is
+                                        the year with the least collisions.
+                                        In 2018 and 2019 the serious collisions in New York City actually skyrocketed
+                                        reaching a peak in 2018 with more than 28,000 serious accidents.</p>
                                     <!-- Response over Boroughs -->
-                                    <h3>Response over Boroughs</h3>
+                                    <div class="mt-5 mb-3" style="width:100%">
+                                        <h3>Response over Boroughs</h3>
+                                    </div>
                                     <img class="img-fluid d-block mx-auto"
                                         src="assets/img/data-exploration/response_brough.jpg" alt="..." />
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
-                                        adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos
-                                        deserunt
-                                        repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores
-                                        repudiandae,
-                                        nostrum, reiciendis facere nemo!</p>
+                                    <p>Above we see that the correlation of serious accidents to the number of
+                                        non-serious
+                                        ones.
+                                        Brooklyn is first in accidents, followed by Queens and then Manhattan. Following
+                                        the big 3 we have Bronx and Staten Island with much lesser accidents
+                                        accordingly.</p>
                                     <!-- Response over 24Hrs -->
-                                    <h3>Response over 24hrs</h3>
+                                    <div class="mt-5 mb-3" style="width:100%">
+                                        <h3>Response over 24hrs</h3>
+                                    </div>
                                     <img class="img-fluid d-block mx-auto"
                                         src="assets/img/data-exploration/response_24hr.jpg" alt="..." />
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
-                                        adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos
-                                        deserunt
-                                        repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores
-                                        repudiandae,
-                                        nostrum, reiciendis facere nemo!</p>
+                                    <p>In the response based on the 24 hours we clearly see the majority of the
+                                        collisions happen during the peak hours. This involve the times society is more
+                                        active.</p>
                                     <!-- Response over Week Days -->
-                                    <h3>Response over Week Days</h3>
+                                    <div class="mt-5 mb-3" style="width:100%">
+                                        <h3>Response over Week Days</h3>
+                                    </div>
                                     <img class="img-fluid d-block mx-auto"
                                         src="assets/img/data-exploration/response_weekdays.jpg" alt="..." />
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
-                                        adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos
-                                        deserunt
-                                        repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores
-                                        repudiandae,
-                                        nostrum, reiciendis facere nemo!</p>
+                                    <p>In the response based on the week days, Friday is by far the "busiest" day where
+                                        most collisions happen, probably this is because people are tired at that time
+                                        of the week.</p>
                                     <!-- Jitter Plots -->
-                                    <h3>Jitter Plots</h3>
+                                    <div class="mt-5 mb-3" style="width:100%">
+                                        <h3>Jitter Plots</h3>
+                                    </div>
                                     <img class="img-fluid d-block mx-auto"
                                         src="assets/img/data-exploration/jitter_no_injury.jpg" alt="..." />
                                     <img class="img-fluid d-block mx-auto"
                                         src="assets/img/data-exploration/jitter_injury.jpg" alt="..." />
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
-                                        adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos
-                                        deserunt
-                                        repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores
-                                        repudiandae,
-                                        nostrum, reiciendis facere nemo!</p>
+                                    <p>The pattern of non-injuries/kills is much busier that the lethal car accidents.
+                                        This makes sense.
+                                        We also observe a high amount of accident being registered only at intervals of
+                                        10 mins (the officers rounded up the numbers to simplify the time) but the are
+                                        also other lethal accidents that depict the exact minute.</p>
                                     <!-- Frequency over Latitude -->
-                                    <h3>Frequency over Latitude</h3>
+                                    <div class="mt-5 mb-3" style="width:100%">
+                                        <h3>Frequency over Latitude</h3>
+                                    </div>
                                     <img class="img-fluid d-block mx-auto"
                                         src="assets/img/data-exploration/hist_latitude_no_injury.jpg" alt="..." />
                                     <img class="img-fluid d-block mx-auto"
                                         src="assets/img/data-exploration/hist_latitude_injury.jpg" alt="..." />
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
-                                        adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos
-                                        deserunt
-                                        repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores
-                                        repudiandae,
-                                        nostrum, reiciendis facere nemo!</p>
+                                    <p>It can be seen that the two response histograms show mixed Gaussian
+                                        spatio-temporal distributions (January & latitude), excluding the high peak
+                                        noise/outliers.</p>
                                 </div>
                             </div>
                             <div class="col-lg-12">
+                                <!-- Frequency over Latitude -->
+                                <div class="mt-5 mb-3" style="width:100%">
+                                    <h3>Collisions on Map</h3>
+                                </div>
+                                <p>The map is created to portrait specific collisions for a selected period, specified
+                                    with a Start and End Date.
+                                    We chose to visualize the serious/lethal collisions with red and the non-serious
+                                    collisions with blue in New York City for the month of January 2020-2021 between
+                                    12:00 and 18:00.
+                                    We observe that the Central Park/ Manhattan in general is very heavy in collisions
+                                    and also the same applies for Brooklyn.
+                                    We also, see the number of non-serious collisions (blue) is much bigger than the
+                                    serious/lethal ones.</p>
                                 <embed class="embed-responsive-item w-100 vh-100" type="text/html"
                                     src="interactive-plots/nyc_mvc_folium.html">
                                 <button class="btn btn-primary" data-dismiss="modal" type="button">
@@ -924,39 +981,43 @@
                         <div class="modal-body">
                             <!-- Project Details Go Here-->
                             <h2 class="text-uppercase">VEHICLE TYPES & CONTRIBUTING FACTORS</h2>
-                            <p class="item-intro text-muted">Some small intro here.</p>
+                            <p class="item-intro text-muted">Scroll down to interact with the Hourly distributions of
+                                vehicle
+                                types and contributing factors.</p>
                             <div class="d-flex justify-content-center"></div>
                             <div class="col-lg-12">
-                                <h3>Hourly Distribution: Vehicle Types</h3>
+                                <div class="mt-5 mb-3" style="width:100%">
+                                    <h3>Hourly Distribution: Vehicle Types</h3>
+                                </div>
+                                <p>Most vehicle types crashes peak around midday to evening hours!
+                                    Taxis actually crash throughout the day
+                                    Bus crashes peak in the morning and evening hours - the rush hours..!</p>
                                 <embed class="embed-responsive-item w-100 vh-100" type="text/html"
                                     src="interactive-plots/bokeh_vehic_type_1.html">
 
                                 <embed class="embed-responsive-item w-100 vh-100" type="text/html"
                                     src="interactive-plots/bokeh_vehic_type_2.html">
                             </div>
-                            <div class="col-lg-8">
-                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
-                                    adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos
-                                    deserunt
-                                    repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores
-                                    repudiandae,
-                                    nostrum, reiciendis facere nemo!</p>
-                            </div>
                             <div class="col-lg-12">
-                                <h3>Hourly Distribution: Contributing Factors</h3>
+                                <div class="mt-5 mb-3" style="width:100%">
+                                    <h3>Hourly Distribution: Contributing Factors</h3>
+                                </div>
+                                <p>Most factors that cause crashes peak around midday to evening hours! Unsafe Speed is
+                                    a factor that occurs thoughout the mid-hours of the day. Alcohol Involvement
+                                    differentiates extremely from the rest. It happens mainly in the
+                                    evening to morning hours.</p>
                                 <embed class="embed-responsive-item w-100 vh-100" type="text/html"
                                     src="interactive-plots/bokeh_contrib_fact_vehic_1.html">
+
+                                <p>Alcohol Involvement for contributing factor vehicle 2 is very unbalanced looking a
+                                    little like a
+                                    uniform distribution. This means that the vehicle 2 driver crashs many times
+                                    throughout the day due to involvment with alcohol.</p>
 
                                 <embed class="embed-responsive-item w-100 vh-100" type="text/html"
                                     src="interactive-plots/bokeh_contrib_fact_vehic_2.html">
                             </div>
                             <div class="col-lg-8">
-                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
-                                    adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos
-                                    deserunt
-                                    repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores
-                                    repudiandae,
-                                    nostrum, reiciendis facere nemo!</p>
                                 <button class="btn btn-primary" data-dismiss="modal" type="button">
                                     <i class="fas fa-times mr-1"></i>
                                     Close Project
@@ -978,36 +1039,40 @@
                     <div class="row justify-content-center">
                         <div class="modal-body">
                             <h2 class="text-uppercase">DATA PREPARATION FOR ML</h2>
-                            <p class="item-intro text-muted">Some introductory text on summary statistics.</p>
-
                             <div class="d-flex justify-content-center">
                                 <div class="col-lg-8">
                                     <!-- Testing different spatio-temporal distributions -->
-                                    <h3>Testing Different Spatio-temporal Distributions</h3>
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
-                                        adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos
-                                        deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores
-                                        repudiandae, nostrum, reiciendis facere nemo!</p>
+                                    <div class="mt-5 mb-3" style="width:100%">
+                                        <h3>Testing Different Spatio-temporal Distributions</h3>
+                                    </div>
+                                    <p>Kolmogorov-Smirnov statistic shows that the response to values has indeed
+                                        different spatio-temporal distribution under the features of Latitude, Hour and
+                                        Month.
+                                        Below are the histograms that show the latitude distribution of the two Response
+                                        labels, in only January from 2013 until 2020 using 50 bins. It can be seen that
+                                        the two crime histograms show different spatio-temporal distributions.</p>
                                     <img class="img-fluid d-block mx-auto"
                                         src="assets/img/data-exploration/hist_latitude_no_injury.jpg" alt="..." />
                                     <img class="img-fluid d-block mx-auto"
                                         src="assets/img/data-exploration/hist_latitude_injury.jpg" alt="..." />
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
-                                        adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos
-                                        deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores
-                                        repudiandae, nostrum, reiciendis facere nemo!</p>
                                     <!-- Feature Slicing -->
-                                    <h3>Feature Slicing</h3>
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
-                                        adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos
-                                        deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores
-                                        repudiandae, nostrum, reiciendis facere nemo!</p>
+                                    <div class="mt-5 mb-3" style="width:100%">
+                                        <h3>Feature Slicing</h3>
+                                    </div>
+                                    <p>For the machine learning part, we consider a subset of the dataset which
+                                        contains according to our intuition, the most important features that describe
+                                        the response.
+                                        This subset contains: The Response, Some Time related features, Place related
+                                        features, Vehicle types features, Casual features, Speed limits modes and the
+                                        Weather features.</p>
                                     <!-- Class Balancing -->
-                                    <h3>Class Balancing</h3>
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
-                                        adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos
-                                        deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores
-                                        repudiandae, nostrum, reiciendis facere nemo!</p>
+                                    <div class="mt-5 mb-3" style="width:100%">
+                                        <h3>Class Balancing</h3>
+                                    </div>
+                                    <p>Since our data is unbalanced we consider balancing it using the Down-sample
+                                        Majority Class. Below is an overview of how the Response labels are before and
+                                        after
+                                        Balancing.</p>
                                     <table class="table table-striped table-bordered center">
                                         <thead>
                                             <tr>
@@ -1030,11 +1095,11 @@
                                         </tbody>
                                     </table>
                                     <!-- Splitting Data for Learning -->
-                                    <h3>Data Splitting</h3>
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
-                                        adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos
-                                        deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores
-                                        repudiandae, nostrum, reiciendis facere nemo!</p>
+                                    <div class="mt-5 mb-3" style="width:100%">
+                                        <h3>Data Splitting</h3>
+                                    </div>
+                                    <p>For training the ML models we will consider 5% of the data and the remaining 95%
+                                        will be held out as unseen data for validating the final ML model.</p>
                                     <button class="btn btn-primary" data-dismiss="modal" type="button">
                                         <i class="fas fa-times mr-1"></i>
                                         Close Project
@@ -1062,16 +1127,20 @@
                             <div class="d-flex justify-content-center">
                                 <div class="col-lg-8">
                                     <!-- Model Results -->
-                                    <h3>Model Results</h3>
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
-                                        adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos
-                                        deserunt
-                                        repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores
-                                        repudiandae,
-                                        nostrum, reiciendis facere nemo!</p>
+                                    <div class="mt-5 mb-3" style="width:100%">
+                                        <h3>Model Results</h3>
+                                    </div>
+                                    <p>Here we compare the performance of the Three algorithms, namely: Random Forest,
+                                        DecisionTree and Logistic Regression on the training data (all with the sklearn
+                                        default settings for now).</p>
                                     <img class="img-fluid d-block mx-auto"
                                         src="assets/img/machine-learning/algorithm_comparison.jpg" alt="..." />
-                                    <p>Model Tuning is included here</p>
+                                    <p>Above are the Box and Whisker plots comparing the considered algorithms: Decision
+                                        Tree, Random Forest and Logistic Regression, based on their performance. It's
+                                        observed that the
+                                        Decision Tree beats the others on sklearn default settings. Therefore it was the
+                                        one we chose
+                                        to tune and investigate further.</p>
                                     <button class="btn btn-primary" data-dismiss="modal" type="button">
                                         <i class="fas fa-times mr-1"></i>
                                         Close Project
@@ -1098,46 +1167,52 @@
                             <p class="item-intro text-muted">Final results for the Tuned Decision Tree Model.</p>
                             <div class="d-flex justify-content-center">
                                 <div class="col-lg-8">
-                                    <!-- Classification Report -->
-                                    <h3>Confusion Matrix</h3>
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
-                                        adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos
-                                        deserunt
-                                        repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores
-                                        repudiandae,
-                                        nostrum, reiciendis facere nemo!</p>
+                                    <!-- Confusion Matrix -->
+                                    <div class="mt-5 mb-3" style="width:100%">
+                                        <h3>Confusion Matrix</h3>
+                                    </div>
+                                    <p>After tuning the Decision Tree on our training data (5% of the total data) using
+                                        recall as evaluation metric we came to a final model, let’s have a look into it.
+                                        We will start with the confusion matrix and the classification report of the
+                                        final tuned decision tree on the validation data (95% of the total data -
+                                        unseen):</p>
 
                                     <img class="img-fluid d-block mx-auto"
                                         src="assets/img/machine-learning/conf_matrix.jpg" alt="..." />
 
                                     <table class="table table-striped table-bordered center">
-                                            <thead>
-                                                <tr>
-                                                    <th scope="col"></th>
-                                                    <th scope="col">precision</th>
-                                                    <th scope="col">recall</th>
-                                                    <th scope="col">accuracy</th>
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                                <tr>
-                                                    <th scope="row">0</th>
-                                                    <td>0.65</td>
-                                                    <td>0.71</td>
-                                                    <td>0.66</td>
-                                                </tr>
-                                                <tr>
-                                                    <th scope="row">1</th>
-                                                    <td>0.68</td>
-                                                    <td>0.62</td>
-                                                    <td>0.66</td>
-                                                </tr>
-                                            </tbody>
+                                        <thead>
+                                            <tr>
+                                                <th scope="col"></th>
+                                                <th scope="col">precision</th>
+                                                <th scope="col">recall</th>
+                                                <th scope="col">accuracy</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <th scope="row">0</th>
+                                                <td>0.65</td>
+                                                <td>0.71</td>
+                                                <td>0.66</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">1</th>
+                                                <td>0.68</td>
+                                                <td>0.62</td>
+                                                <td>0.66</td>
+                                            </tr>
+                                        </tbody>
                                     </table>
-
-
-                                    <h3>Feature Importance</h3>
-                                    <p>Below are the features ordered based on their importance for predicting if the accident will involve an injury/kill or not.</p>
+                                    <p>It is seen that our final model in general is doing fine. It has a good accuracy
+                                        in predicting the true positive class (dangerous MVC, Response = 1) which is
+                                        what we aimed for.</p>
+                                    <!-- Feature Importance -->
+                                    <div class="mt-5 mb-3" style="width:100%">
+                                        <h3>Feature Importance</h3>
+                                    </div>
+                                    <p>Below are the features ordered based on their importance for predicting if the
+                                        accident will involve an injury/kill or not.</p>
                                     <table class="table table-striped table-bordered center">
                                         <thead>
                                             <tr>
@@ -1208,14 +1283,12 @@
                                             </tr>
                                         </tbody>
                                     </table>
-
-                                    <h3>Decision Tree Plot</h3>
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
-                                        adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos
-                                        deserunt
-                                        repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores
-                                        repudiandae,
-                                        nostrum, reiciendis facere nemo!</p>
+                                    <!-- Decision Tree Plot -->
+                                    <div class="mt-5 mb-3" style="width:100%">
+                                        <h3>Decision Tree Plot</h3>
+                                    </div>
+                                    <p>Just to have an idea of how our Tuned Decision Tree is working, below is a
+                                        Tree Plot (for visualization purposes we will set the maximum depth to 2).</p>
                                     <img class="img-fluid d-block mx-auto"
                                         src="assets/img/machine-learning/decision_tree.jpg" alt="..." />
                                     <button class="btn btn-primary" data-dismiss="modal" type="button">
